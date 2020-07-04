@@ -1,0 +1,87 @@
+#contents,.srchbar{
+	box-shadow: 0px 0px 5px black;
+}
+
+.srchbar{
+	margin: 20px;
+	padding: 20px;
+}
+button{
+	cursor: pointer;
+	outline: none;
+	border-radius: 5px 5px;
+	width: 100px;
+	height: 30px;
+}
+.srchbar form{
+	margin-top: -30px;
+	margin-left: 75%;
+}
+#contents{
+	margin: 20px;
+	width: 58%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+input[type="text"]{
+	width: 250px;
+	height: 30px;
+	border-radius: 10px 10px; 
+	outline: none;
+}
+table{
+	margin: 10px;
+	margin-left: 20px;
+}
+table img{
+	height: 70px;
+	width: 70px;
+}
+table .ppClass{
+	width: 80px;
+	padding: 5px;
+}
+table thead{
+	height: 50px;
+}
+table tr{
+	box-shadow: 0px 0px 5px black;
+}
+table td{
+	text-align: center;
+	width:180px;
+}
+table .nameClass{
+	text-align: left;
+	width:150px;
+}
+.inpbox{
+	position: relative;
+	width: 300px;
+	height: 35px;
+	margin: 15px;
+	margin-left: 20%;
+}
+.inpbox input{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: 2px solid #02b281;
+	padding-left: 10px;
+	background: rgba(0,0,0,0);
+}
+.inpbox span{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 15px;
+	pointer-events: none;
+	padding: 2px;
+	transition: 1s;
+}
+.inpbox input:focus + span,.inpbox input:valid + span{
+	top: 0;
+	background: #ffc1c1;
+	color: #02b281;
+}

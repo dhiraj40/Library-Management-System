@@ -1,0 +1,43 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+.navbar{
+	background-color:black;
+	width:220px;
+	overflow:hidden;
+	padding-top:100px;
+	padding-left:20px;
+	height:100%;
+	position:fixed;
+}
+.navbar a{
+	color:white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+}
+.navbar a:hover{
+	color: tomato;
+}
+
+.main_body{
+	padding-left:20px;
+	margin-left:220px;
+}
+.header{
+	padding-left:35%;
+	padding-top:2px;
+	height:70px;
+	width:100%;
+	background-color:tomato;
+	position:fixed;
+}
+.work{
+	padding-top:80px;
+	height:200%;
+	overflow:auto;
+	width:98%;
+	padding-left:20px;
+	background-color:pink;
+}
